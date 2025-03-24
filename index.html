@@ -16,7 +16,10 @@
 <script type="text/javascript">
     function addTasK(){
         document.getElementById("addTask").textContent = document.getElementById("enterTask").value
-        deleteButton = document.createElement("button")
+        content = document.getElementById("addTask").textContent
+        if(content){
+            document.createElement("button")
+        }
     }
 
 </script>
